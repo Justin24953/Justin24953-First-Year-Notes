@@ -9,7 +9,7 @@ console.log(petName)
 
 // 2. Variable Names can't start with Numbers. Instead assign a number to the a variable.
 
-let 3 = 5
+// let 3 = 5
 let result = 3 + 2
 // ^The Computer doesn't know if this is a number or a variable yet.
 
