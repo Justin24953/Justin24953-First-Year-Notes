@@ -34,7 +34,6 @@ console.log('You will melt')
 // If 7 or under print message about child pricing 
 
 // If 65 or older print message about senior discount
-let age = 96
 if (age <= 7) {
 console.log('The Child gets half off')
 }
