@@ -1,13 +1,13 @@
 //let temp = 100
 // Logical And Operator = &&. If both sides are true than it passes.
 // Logical Or Operator = ||. If one side is true it passes
-// if (temp >= 60 && temp <= 90) {
-//console.log('Go Outside Lazy!')
-//} else if(temp <= 0 || temp >= 120) {
-//  console.log("Weather is too extreame ")
-//} else {
-//console.log('Whatever.')
-//}
+ if (temp >= 60 && temp <= 90) {
+console.log('Go Outside Lazy!')
+} else if(temp <= 0 || temp >= 120) {
+  console.log("Weather is too extreame ")
+} else {
+console.log('Whatever.')
+}
 
 //Challenge
 let isGuestVegan =  false
