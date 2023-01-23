@@ -28,4 +28,4 @@ let myProfile = {
         
         myProfile.age = myProfile.age + 1
 
-            console.log(`Flint just turned ${myProfile.age} and still lives in ${myProfile.location}.`)
+            console.log(`Flint just turned ${myProfile.age} and still lives in ${myProfile.location}.`)            
