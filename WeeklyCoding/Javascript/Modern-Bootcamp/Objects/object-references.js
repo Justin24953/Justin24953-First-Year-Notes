@@ -13,13 +13,9 @@ let addExpense = function (account, amount) {
 //addIncome
 
 
-//reset Account
-
-//getAccountSummary
 
 
 
 
-addExpense(myAccount, 2.50)
-console.log(myAccount)
+
 
