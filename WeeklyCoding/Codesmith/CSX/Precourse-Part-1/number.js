@@ -5,13 +5,14 @@
 
 // Finally, create a variable named in10Yrs and set the value to equal your age plus 10.
 
+
 const birthYear = 1930;
 	let age = 92
   	let in10Yrs = age + 10
     
+
  console.log(birthYear);
  console.log(age);
  console.log(in10Yrs);
 
-
-
+ 
