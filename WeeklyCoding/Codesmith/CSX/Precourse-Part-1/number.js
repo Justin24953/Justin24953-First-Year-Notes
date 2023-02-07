@@ -43,3 +43,19 @@ console.log(fiveSquared)
 			console.log(eightyThreeModSix)
 				console.log(sixtyModNine)
 
+// -----Challenge: Numbers - Incrementor & Decrementor-----
+
+//Challenge
+// 1. Using the incrementor operator, increase the value of num1 by 1.
+
+// 2. Using the decrementor operator, decrease the value of num2 by 1.
+
+let num1 = 32;
+	let num2 = 44;
+		num1++;
+			num2--;
+
+console.log(num1)
+	console.log(num2)
+				
+
