@@ -50,8 +50,8 @@ console.log(fiveSquared)
 
 // 2. Using the decrementor operator, decrease the value of num2 by 1.
 
-let num1 = 32;
-	let num2 = 44;
+//let num1 = 32;
+//	let num2 = 44;
 		num1++;
 			num2--;
 
@@ -80,6 +80,8 @@ console.log(num1)
 	console.log(num2)
 		console.log(num3)
 			console.log(num4)
+
+
 
       
 				
