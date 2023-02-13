@@ -72,6 +72,7 @@ const bestMusic = undefined; // always different for me 💁
  console.log(value6)
 // STEP 4 (Bonus Step)
 
+
 let guest = {
 
 }
@@ -87,3 +88,17 @@ console.log(guest)
 const nameToBeAddedToTheGuestList = guest.age >= 25 && guest['has identification'] && guest['face matches identification'] && guest['identification is real'] && guest['face matches identification'] && guest.name || "You were not added"
 
 console.log(nameToBeAddedToTheGuestList)
+
+// -----CHALLENGE 3-----
+
+let num = 0;
+
+if (num < 0) {
+  console.log('negative')
+} else if (num > 0) {
+  console.log('postive')
+} else {
+  console.log('zero')
+}
+
+// -----CHALLENGE 4-----
