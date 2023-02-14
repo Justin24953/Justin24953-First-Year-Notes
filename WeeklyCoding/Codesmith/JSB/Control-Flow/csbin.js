@@ -102,3 +102,32 @@ if (num < 0) {
 }
 
 // -----CHALLENGE 4-----
+
+ // STEP 1
+ let temperature = 54
+ let kindOfDay
+  
+ 
+ 
+   // STEP 2
+  if (temperature > 98) {
+    kindOfDay = 'super hot'
+    console.log(`I'm staying inside next to the AC`)
+  } else if (temperature < 99 && temperature > 84) {
+    kindOfDay = `a little warm`
+    console.log(`I'll head out for a bit, but I'm wearing shorts`)
+  } else if (temperature > 69 && temperature < 85) {
+    kindOfDay = `perfect`
+    console.log(`It's perfect outside. I think I'll go to the park`)
+  } else if (temperature > 54 && temperature < 70) {
+    kindOfDay = `chilly`
+    console.log(`I'd better bring a jacket`)
+  } else if (temperature < 55) {
+    kindOfDay = `freezing`
+    console.log(`Heck no! I'm staying inside where it's warm`)
+  } 
+    if  (kindOfDay != undefined) {
+    console.log(`Looks like it's going to be ${kindOfDay}`)
+  }
+
+
