@@ -1,5 +1,4 @@
 // -----CHALLENGE 1-----
-// -----CHALLENGE 1-----
 let greetingPt1 = 'Hello'
 let greetingPt2 = 'World'
 
