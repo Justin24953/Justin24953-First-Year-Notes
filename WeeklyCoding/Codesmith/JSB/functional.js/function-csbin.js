@@ -44,3 +44,11 @@ console.log(addTwo(10, 20)); // --> 30
 console.log(addTwo(16, 199)); // --> 215
 
 //-----CHALLENGE 4-----
+
+function arraySum (array) {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++){
+    sum += array[i];
+  };
+  return sum
+}
