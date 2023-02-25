@@ -8,6 +8,7 @@ function addTwo (num) {
   return num +2;
 };
 addTwo(3);
+// 5
 
 // How can we execute code over and over again without writing it more than once?
 
