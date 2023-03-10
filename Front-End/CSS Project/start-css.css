@@ -10,7 +10,7 @@
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
-/* border box model: https://css-tricks.com/box-sizing/ */
+
 html {
   box-sizing: border-box;
 }
@@ -19,6 +19,15 @@ html {
 *::after {
   box-sizing: inherit;
 }
-section {
-  background-color: rgb(6, 226, 226);
+@font-face {
+  font-family:'project-font';
+  src: url(https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300&display=swap);
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(6, 226, 226);
+  
+}
+
