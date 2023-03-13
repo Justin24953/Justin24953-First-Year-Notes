@@ -1,3 +1,16 @@
+:root {
+  --title-color: #025951;;
+  --author-color: #02735e;
+  --date-color: #127369;
+  --text-color: #000000;
+  --font-size: 1.1rem;
+  --font-1: "Arvo", serif;
+  --font-2: "Fira Sans", sans-serif;
+  --img-gap:10px;
+  --img-width:200px;
+  --img-height:500px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,31 +22,32 @@
 }
 
 .title {
-  color: #025951;
-  font-family: "Arvo", serif;
+  color: var(--title-color);
+  font-family: var(--font-1);
   display: flex;
   justify-content: center;
 }
 
 .author {
   color: #02735e;
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--font-2);
 }
 
 .date {
   color: #127369;
-  font-family: "Arvo", serif;  
+  font-family: var(--font-1); 
+  font-size: var(--font-size); 
 }
 
 .text {
   color: rgb(0, 0, 0);
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--font-2);
 }
 
 .example-img {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-  max-height: 200px;
+  gap: var(--img-gap);
+  max-width: var(--img-width);
+  max-height: var(--img-length);
 }
