@@ -8,24 +8,24 @@
   
 }
 
-.Title {
+.title {
   color: #025951;
   font-family: "Arvo", serif;
   display: flex;
   justify-content: center;
 }
 
-.Author {
+.author {
   color: #02735e;
   font-family: "Fira Sans", sans-serif;
 }
 
-.Date {
+.date {
   color: #127369;
   font-family: "Arvo", serif;  
 }
 
-.Text {
+.text {
   color: rgb(0, 0, 0);
   font-family: "Fira Sans", sans-serif;
 }
