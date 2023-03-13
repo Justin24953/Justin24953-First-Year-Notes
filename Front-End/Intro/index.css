@@ -1,24 +1,21 @@
 :root {
-  --title-color: #025951;;
+  --title-color: #025951;
   --author-color: #02735e;
   --date-color: #127369;
   --text-color: #000000;
   --font-size: 1.1rem;
   --font-1: "Arvo", serif;
   --font-2: "Fira Sans", sans-serif;
-  --img-gap:10px;
-  --img-width:200px;
-  --img-height:500px;
+  --img-gap: 10px;
+  --img-width: 200px;
+  --img-height: 500px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-*{
-  
-  
-  
+* {
 }
 
 .title {
@@ -35,8 +32,8 @@
 
 .date {
   color: #127369;
-  font-family: var(--font-1); 
-  font-size: var(--font-size); 
+  font-family: var(--font-1);
+  font-size: var(--font-size);
 }
 
 .text {
