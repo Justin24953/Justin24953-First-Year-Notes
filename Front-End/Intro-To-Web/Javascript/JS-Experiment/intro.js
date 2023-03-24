@@ -1,5 +1,7 @@
-console.log(`Hi from intro`)
-const monthlyRent = 500;
+// Javascript Refresh
+const timesToRepeat = 10
+let character = '🧐'
 
-const yearlyRent = monthlyRent * 12;
-console.log(yearlyRent);
+for (let i = 0; i <= timesToRepeat; i++) {
+console.log(character)
+}
