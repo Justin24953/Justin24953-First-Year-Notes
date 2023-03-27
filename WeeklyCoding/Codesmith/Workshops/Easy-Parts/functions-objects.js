@@ -1,4 +1,4 @@
-// Intro To Javascript Functions and Objects
+// Intro To Javascript Functions
 
  /* let sum = 0;
 
@@ -21,15 +21,33 @@ console.log(average) -> (75) */
  const output = averageGrade();
  const newOutput = averageGrade(); */
      
-                     /* parameter */
- function averageGrade (myGrades) {
+                    /* parameter */
+ /* function averageGrade (myGrades) {
   let sum = 0;
   sum = myGrades[0] + myGrades[1] +myGrades[2]
   let average = sum / myGrades.length
   return average
  }
-                            /* Argument */
- const output = averageGrade([50, 75, 100]) /* 75 */
- const newOutput = averageGrade([100,85,100]) /* 95 */
+                             Argument 
+ const output = averageGrade([50, 75, 100]) [75] 
+ const newOutput = averageGrade([100,85,100]) [95] */
+
+ function addFunc(num1,num2) {
+  console.log(num1 + num2);
+ }
+
+ const output = addFunc(50, 75)
+ console.log(output) 
+
+ 
+// Intro To Ojects
+
+ const person = {
+  name: `will`,
+  comapany:'codesmith',
+  favNum: 17,
+  hasRedhair: true,
+  favSnakes:[`Twin Snakes`, `Gummy Bears`],
+ };
 
  
