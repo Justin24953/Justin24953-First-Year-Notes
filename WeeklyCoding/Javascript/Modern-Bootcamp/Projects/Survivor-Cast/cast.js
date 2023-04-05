@@ -1,72 +1,90 @@
 let castaway1 = {
   name: "Matt Blankinship",
-  bootOrder: "NA",
+  
 };
-let castway2 = {
+let castaway2 = {
   name: "Claire Rafson",
-  bootOrder: "NA",
+  
 };
-let castway3 = {
+let castaway3 = {
   name: "Carolyn Wiger",
-  bootOrder: "NA",
+  
 };
-let castway4 = {
-  name: "",
-  bootOrder: "NA",
+let castaway4 = {
+  name: "Yam Yam",
+  
 };
-let castway5 = {
-  name: "",
-  bootOrder: "NA",
+let castaway5 = {
+  name: "Lauren Harpe",
+  
 };
-let castway6 = {
-  name: "",
-  bootOrder: "NA",
+let castaway6 = {
+  name: "Danny Massa",
+  
 };
-let castway7 = {
-  name: "",
-  bootOrder: "NA",
+let castaway7 = {
+  name: "Heidi",
+  
 };
-let castway8 = {
-  name: "",
-  bootOrder: "NA",
+let castaway8 = {
+  name: "Carson Garrett",
+  
 };
-let castway9 = {
-  name: "",
-  bootOrder: "NA",
+let castaway9 = {
+  name: "Maddy Pomilla",
+  
 };
-let castway10 = {
-  name: "",
-  bootOrder: "NA",
+let castaway10 = {
+  name: "Bruce Perreault",
+  
 };
-let castway11 = {
-  name: "",
-  bootOrder: "NA",
+let castaway11 = {
+  name: "Sarah Wade",
+  
 };
-let castway12 = {
-  name: "",
-  bootOrder: "NA",
+let castaway12 = {
+  name: "Matthew Grinstead",
+  
 };
-let castway13 = {
-  name: "",
-  bootOrder: "NA",
+let castaway13 = {
+  name: "Helen",
+  
 };
-let castway14 = {
-  name: "",
-  bootOrder: "NA",
+let castaway14 = {
+  name: "Josh",
+  
 };
-let castway15 = {
-  name: "",
-  bootOrder: "NA",
+let castaway15 = {
+  name: "Jaime",
+  
 };
-let castway16 = {
-  name: "",
-  bootOrder: "NA",
+let castaway16 = {
+  name: "Kane",
+  
 };
 let castway17 = {
-  name: "",
-  bootOrder: "NA",
+  name: "Frannie",
+  
 };
-let castway18 = {
-  name: "",
-  bootOrder: "NA",
+let castaway18 = {
+  name: "Brandon",
+  
 };
+
+function addKeyValue(obj, key, value) {
+  if (obj.hasOwnProperty(key)) {
+  console.log("Key " + key + " already exists in the object.");
+  } else {
+    obj[key] = value;
+  }
+}
+
+addKeyValue(castaway10,"bootOrder",1);
+addKeyValue(castaway9,"bootOrder",2);
+addKeyValue(castaway13,"bootOrder",3);
+addKeyValue(castaway2,"bootOrder",4);
+addKeyValue(castaway11,"bootOrder",5);
+addKeyValue(castaway12,"bootOrder",6);
+
+console.log(castaway10)
+
