@@ -1,4 +1,3 @@
-
 const castaway1 = {
   name: "Matt Blankinship",
 };
@@ -52,7 +51,7 @@ const castway17 = {
 };
 const castaway18 = {
   name: "Brandon",
-}; 
+};
 
 
 
