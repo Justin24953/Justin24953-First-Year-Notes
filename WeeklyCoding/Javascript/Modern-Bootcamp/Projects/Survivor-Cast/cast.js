@@ -1,57 +1,62 @@
-let castaway1 = {
+
+const castaway1 = {
   name: "Matt Blankinship",
 };
-let castaway2 = {
+const castaway2 = {
   name: "Claire Rafson",
 };
-let castaway3 = {
+const castaway3 = {
   name: "Carolyn Wiger",
 };
-let castaway4 = {
+const castaway4 = {
   name: "Yam Yam",
 };
-let castaway5 = {
+const castaway5 = {
   name: "Lauren Harpe",
 };
-let castaway6 = {
+const castaway6 = {
   name: "Danny Massa",
 };
-let castaway7 = {
+const castaway7 = {
   name: "Heidi",
 };
-let castaway8 = {
+const castaway8 = {
   name: "Carson Garrett",
 };
-let castaway9 = {
+const castaway9 = {
   name: "Maddy Pomilla",
 };
-let castaway10 = {
+const castaway10 = {
   name: "Bruce Perreault",
 };
-let castaway11 = {
+const castaway11 = {
   name: "Sarah Wade",
 };
-let castaway12 = {
+const castaway12 = {
   name: "Matthew Grinstead",
 };
-let castaway13 = {
+const castaway13 = {
   name: "Helen",
 };
-let castaway14 = {
+const castaway14 = {
   name: "Josh",
 };
-let castaway15 = {
+const castaway15 = {
   name: "Jaime",
 };
-let castaway16 = {
+const castaway16 = {
   name: "Kane",
 };
-let castway17 = {
+const castway17 = {
   name: "Frannie",
 };
-let castaway18 = {
+const castaway18 = {
   name: "Brandon",
-};
+}; 
+
+
+
+
 
 function addKeyValue(obj, key, value) {
   if (obj.hasOwnProperty(key)) {
