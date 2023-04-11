@@ -65,11 +65,21 @@ function addKeyValue(obj, key, value) {
   }
 }
 
+function addCastaway (obj) {
+  if (obj.hasOwnProperty(obj)) {
+    console.log("Player" + obj + "Already is an object");
+  } else {
+
+  }
+
+}
+
 addKeyValue(castaway10, "bootOrder", 1);
 addKeyValue(castaway9, "bootOrder", 2);
 addKeyValue(castaway13, "bootOrder", 3);
 addKeyValue(castaway2, "bootOrder", 4);
 addKeyValue(castaway11, "bootOrder", 5);
 addKeyValue(castaway12, "bootOrder", 6);
+addCastaway(castaway19);
 
 console.log(castaway10);
