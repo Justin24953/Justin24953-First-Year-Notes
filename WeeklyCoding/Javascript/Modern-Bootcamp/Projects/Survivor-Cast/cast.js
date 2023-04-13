@@ -56,7 +56,7 @@ const castaway18 = {
 
 
 
-
+// Targets an already created object and creates a key-value pair
 function addKeyValue(obj, key, value) {
   if (obj.hasOwnProperty(key)) {
     console.log("Key " + key + " already exists in the object.");
@@ -65,14 +65,20 @@ function addKeyValue(obj, key, value) {
   }
 }
 
-function addCastaway (obj) {
-  if (obj.hasOwnProperty(obj)) {
-    console.log("Player" + obj + "Already is an object");
-  } else {
-
-  }
-
+// Might Change this
+function createStandAloneObject(key, value) {
+  return {
+    [key]: value,
+  };
 }
+
+// Creates New Object
+function addCastaway() {
+  return {};
+}
+
+const castaway19 = addCastaway();
+castaway19['name'] = 'Tyson'
 
 addKeyValue(castaway10, "bootOrder", 1);
 addKeyValue(castaway9, "bootOrder", 2);
@@ -80,6 +86,9 @@ addKeyValue(castaway13, "bootOrder", 3);
 addKeyValue(castaway2, "bootOrder", 4);
 addKeyValue(castaway11, "bootOrder", 5);
 addKeyValue(castaway12, "bootOrder", 6);
-addCastaway(castaway19);
+
+
 
 console.log(castaway10);
+console.log(castaway19)
+
