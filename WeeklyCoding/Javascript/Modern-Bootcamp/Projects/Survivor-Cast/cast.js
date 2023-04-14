@@ -53,9 +53,6 @@ const castaway18 = {
   name: "Brandon",
 };
 
-
-
-
 // Targets an already created object and creates a key-value pair
 function addKeyValue(obj, key, value) {
   if (obj.hasOwnProperty(key)) {
@@ -72,13 +69,13 @@ function createStandAloneObject(key, value) {
   };
 }
 
-// Creates New Object
+// Creates New Object/Castaway
 function addCastaway() {
   return {};
 }
 
 const castaway19 = addCastaway();
-castaway19['name'] = 'Tyson'
+castaway19["name"] = "Tyson";
 
 addKeyValue(castaway10, "bootOrder", 1);
 addKeyValue(castaway9, "bootOrder", 2);
@@ -87,8 +84,5 @@ addKeyValue(castaway2, "bootOrder", 4);
 addKeyValue(castaway11, "bootOrder", 5);
 addKeyValue(castaway12, "bootOrder", 6);
 
-
-
 console.log(castaway10);
-console.log(castaway19)
-
+console.log(castaway19);
