@@ -82,7 +82,7 @@ function addKeyToObject(obj, key) {
   return obj;
 }
 
-addKeyToObject(castaway19, "key");
+addKeyToObject(castaway19, "Tribe");
 console.log(castaway19);
 
 addKeyValue(castaway10, "bootOrder", 1);
