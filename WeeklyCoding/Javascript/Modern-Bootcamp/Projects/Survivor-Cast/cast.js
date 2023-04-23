@@ -6,9 +6,11 @@ const castaway2 = {
 };
 const castaway3 = {
   name: "Carolyn Wiger",
+  
 };
 const castaway4 = {
   name: "Yam Yam",
+  state: 'das'
 };
 const castaway5 = {
   name: "Lauren Harpe",
