@@ -46,3 +46,12 @@ const tikaTribe = [
   { name: "Yam Yam" },
 ];
 
+//CRUD (Use the standard JavaScript functions for creating, reading, updating, and deleting objects and array elements.) 
+// 1. I need a fucntion that creates an Array
+// 2. I need a function that creates an object within an array
+// 3. I need a function that updates existing arrays.
+//4. I need a function that updates existing objects.
+//5. I need to be able to delte Array
+// 6. I need to be able to delte an object within an array.
+// 7. I need to bel able to search my Arrays.
+// 8. I need to be able to search for my objects within arrays.
