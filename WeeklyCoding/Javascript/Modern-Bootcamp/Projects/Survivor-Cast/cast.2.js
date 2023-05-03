@@ -20,7 +20,7 @@ const castaways = [
 ];
 
 const ratuTribe = [
-  { name: "Brandon",},
+  { name: "Brandon" },
   { name: "Kane" },
   { name: "Matthew Grinstead" },
   { name: "Jaime" },
@@ -46,12 +46,21 @@ const tikaTribe = [
   { name: "Yam Yam" },
 ];
 
-//CRUD (Use the standard JavaScript functions for creating, reading, updating, and deleting objects and array elements.) 
+//CRUD (Use the standard JavaScript functions for creating, reading, updating, and deleting objects and array elements.)
 // 1. I need a fucntion that creates an Array
 // 2. I need a function that creates an object within an array
 // 3. I need a function that updates existing arrays.
-//4. I need a function that updates existing objects.
-//5. I need to be able to delte Array
+// 4. I need a function that updates existing objects.
+// 5. I need to be able to delte Array
 // 6. I need to be able to delte an object within an array.
-// 7. I need to bel able to search my Arrays.
+// 7. I need to bel able to read my Arrays.
 // 8. I need to be able to search for my objects within arrays.
+
+//1.  I might need to create function that's able to create multiple arrays.
+function makeEmptyArray() {
+  return [];
+}
+
+const emptyArray = makeEmptyArray();
+
+console.log(emptyArray)
