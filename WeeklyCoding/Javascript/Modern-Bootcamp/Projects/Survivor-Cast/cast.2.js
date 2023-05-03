@@ -1,4 +1,4 @@
-const castaways = [
+let castaways = [
   { name: "Matt Blankinship" },
   { name: "Claire Rafson" },
   { name: "Carolyn Wiger" },
@@ -19,7 +19,7 @@ const castaways = [
   { name: "Brandon" },
 ];
 
-const ratuTribe = [
+let ratuTribe = [
   { name: "Brandon" },
   { name: "Kane" },
   { name: "Matthew Grinstead" },
@@ -28,7 +28,7 @@ const ratuTribe = [
   { name: "Maddy Pomilla" },
 ];
 
-const sokaTribe = [
+let sokaTribe = [
   { name: "Claire Rafson" },
   { name: "Frannie" },
   { name: "Heidi" },
@@ -37,7 +37,7 @@ const sokaTribe = [
   { name: "Matthew Grinstead" },
 ];
 
-const tikaTribe = [
+let tikaTribe = [
   { name: "Carolyn Wiger" },
   { name: "Helen" },
   { name: "Sarah Wade" },
@@ -51,16 +51,31 @@ const tikaTribe = [
 // 2. I need a function that creates an object within an array
 // 3. I need a function that updates existing arrays.
 // 4. I need a function that updates existing objects.
-// 5. I need to be able to delte Array
-// 6. I need to be able to delte an object within an array.
+// 5. I need to be able to delete Array
+// 6. I need to be able to delete an object within an array.
 // 7. I need to bel able to read my Arrays.
 // 8. I need to be able to search for my objects within arrays.
 
 //1.  I might need to create function that's able to create multiple arrays.
+
 function makeEmptyArray() {
   return [];
 }
 
 const emptyArray = makeEmptyArray();
 
-console.log(emptyArray)
+console.log(emptyArray);
+
+//2.
+function addObjectToArray(array, object) {
+  array.push(object);
+}
+
+const finTribe = [];
+const survivorObject = {
+  name: "John Doe",
+};
+
+addObjectToArray(finTribe, survivorObject);
+
+console.log(finTribe);
