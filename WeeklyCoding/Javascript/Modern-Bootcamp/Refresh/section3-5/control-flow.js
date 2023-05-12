@@ -11,3 +11,11 @@ if (temp <= 32) {
 console(`It's freezing outside`)
 }
 
+//Advanced if statements.
+let isAccountLocked = true
+
+if(isAccountLocked) {
+  console.log(`This is True`)
+} else if (!isAccountLocked) {
+console.log(`This is false`)
+}
