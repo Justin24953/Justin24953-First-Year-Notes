@@ -2,8 +2,9 @@
 
 // Function - input , code, output
 
-let  greetUser = function (Yo) {
-console('Hi')
-}
-
-greetUser(Yo)
+let  greetUser = function () {
+  console.log('Hi')
+    
+  }
+  
+  greetUser()
