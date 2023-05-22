@@ -31,3 +31,25 @@ console.log(`Your Tip has been calculated $(${getTip})`)
 console.log(`Your Tip has been calculated $(${getTip2})`)
 //"Your Tip has been calculated $(9)"
 
+// Function Scope
+// Global Score (ftc, fTemp, fTemp2)
+ // Local Scope (fahrenheit,celsius)
+  // Local Scope(isFreezing)
+
+let ftc = function (fahrenheit) {
+  let celsius = ((fahrenheit - 32) * 5) / 9;
+
+  if (celsius <= 0) {
+    let isFreezing = true
+    }
+  return celsius;
+};
+
+let fTemp = ftc(32);
+// 0
+let fTemp2 = ftc(68);
+// 20
+console.log(fTemp);
+console.log(fTemp2);
+
+// Template Strings
