@@ -53,3 +53,7 @@ console.log(fTemp);
 console.log(fTemp2);
 
 // Template Strings
+let state = 'New Mexico'
+let age = 26
+console.log(`My my stat is ${state} and my ${age} years old `)
+
