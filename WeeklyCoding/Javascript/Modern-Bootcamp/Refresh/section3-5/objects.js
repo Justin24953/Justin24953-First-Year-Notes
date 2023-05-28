@@ -18,3 +18,23 @@ myBook.pageCount = 26
 console.log(myBook.pageCount)
 // 26
 
+// Challenge Area
+
+// name, age, location
+
+// Andrew is 27 and lives in Philadelphia
+
+// Increase age by 1 and print message again 
+
+let userProfile = {
+  name: 'John',
+  age: 25,
+  location: 'New Jersey'
+}
+
+userProfile.age = userProfile.age + 1;
+// userProfile.age = 25 -> 26
+
+console.log(` ${userProfile.name} is ${userProfile.age} and lives in ${userProfile.location}`)
+
+// " John is 26 and lives in New Jersey"
