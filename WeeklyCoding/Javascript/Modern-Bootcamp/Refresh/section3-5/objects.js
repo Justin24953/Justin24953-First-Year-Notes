@@ -61,14 +61,12 @@ let getSummary = function (book) {
 };
 
 let bookSummary = getSummary(myNovel);
-console.log(bookSummary.summary)
+console.log(bookSummary.summary);
 // "Dune by Frank Herbert"
 
-
 let bookSummary2 = getSummary(otherNovel);
-console.log(bookSummary2.pageCountSummary)
+console.log(bookSummary2.pageCountSummary);
 // "Harry Potter has a page count of 223"
-
 
 // Challenge: Create A Function That Returns An Object.
 
@@ -80,18 +78,22 @@ let celsius = (fahrenheit - 32) * 5/9
 let kelvin = (fahrenheit + 459.67) * 5/9
 */
 
+// Returning Objects From Functions
 
-let tempConversions = {
-  kelvin:  (fahrenheit + 459.67) * 5 / 9,
-}
-
-let getTemp = function(fahrenheit) {
+let getTemp = function (fahrenheit) {
   return {
-    fahrenheit: `The temperature is ${fahrenheit} in fahrenheit `,
-    celsius: `The temperature is ${fahrenheit} in celsius`,
-    kelvin:`The temperatrue is ${fahrenheit} in kelvin`
-  }
-}
+    fahrenheit: fahrenheit,
+    celsius: ((fahrenheit - 32) * 5) / 9,
+    kelvin: ((fahrenheit + 459.67) * 5) / 9,
+  };
+};
 
-let ftc =  getTemp(tempConversions.kelvin)
-console.log()
+let conversion = getTemp(60);
+console.log(conversion.celsius);
+// 15.555555555555555
+console.log(conversion.kelvin);
+// 288.7055555555556
+console.log(conversion.fahrenheit);
+// 60
+
+/* In general, returning objects from functions can save time and make code more readable by eliminating the need to repeat object creation code in different parts of the program. It can also make it easier to maintain code, since changes to the object construction process can be made in a single place (the function) rather than in multiple places throughout the code. */
