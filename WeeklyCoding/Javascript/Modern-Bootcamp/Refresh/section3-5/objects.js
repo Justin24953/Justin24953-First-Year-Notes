@@ -88,6 +88,8 @@ let getTemp = function (fahrenheit) {
   };
 };
 
+
+
 let conversion = getTemp(60);
 console.log(conversion.celsius);
 // 15.555555555555555
@@ -97,3 +99,5 @@ console.log(conversion.fahrenheit);
 // 60
 
 /* In general, returning objects from functions can save time and make code more readable by eliminating the need to repeat object creation code in different parts of the program. It can also make it easier to maintain code, since changes to the object construction process can be made in a single place (the function) rather than in multiple places throughout the code. */
+
+// Object References 
