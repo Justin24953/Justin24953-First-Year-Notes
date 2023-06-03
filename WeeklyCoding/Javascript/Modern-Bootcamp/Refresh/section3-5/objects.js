@@ -100,4 +100,27 @@ console.log(conversion.fahrenheit);
 
 /* In general, returning objects from functions can save time and make code more readable by eliminating the need to repeat object creation code in different parts of the program. It can also make it easier to maintain code, since changes to the object construction process can be made in a single place (the function) rather than in multiple places throughout the code. */
 
-// Object References 
+// Object Referances
+
+// Expense Manager Application
+
+
+let myAccount = {
+  name: 'John Snow',
+  expenses: 0,
+  income: 0,
+}
+
+let addExpense = function (account, amount) {
+account.expenses = account.expenses + amount
+}
+
+let accountBalance = addExpense(myAccount,50)
+console.log(myAccount)
+/*
+{
+  "name": "John Snow",
+  "expenses": 50,
+  "income": 0
+}
+*/
