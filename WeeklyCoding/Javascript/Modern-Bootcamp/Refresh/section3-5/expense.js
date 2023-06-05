@@ -32,7 +32,6 @@ let accountSummary = function (account) {
     summary: `${myAccount.name} has an income of ${myAccount.income} and ${myAccount.expense} in expenses`,
   };
 };
-
 // resetAccount
 let resetAccount = function (account, reset) {
   account.expense = reset;
@@ -45,3 +44,9 @@ let firstReset = resetAccount(myAccount, 0);
 let firstSum = accountSummary();
 console.log(firstSum);
 //   "summary": "John Snow has an income of 0 and 0 in expenses"
+
+let secondPay = addIncome(myAccount, 400);
+let secondExpense = addExpense(myAccount, 200);
+let secondSum = accountSummary();
+console.log(secondSum);
+//  "summary": "John Snow has an income of 400 and 200 in expenses"
