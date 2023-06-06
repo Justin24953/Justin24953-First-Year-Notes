@@ -1,4 +1,4 @@
-//Expense Tracker
+//Expense Tracker(My Solution)
 let myAccount = {
   name: "John Snow",
   expense: 0,
@@ -28,8 +28,9 @@ let tacoPrice = addExpense(myAccount, 50);
 
 // getAccountSummary
 let accountSummary = function (account) {
+  let balance = account.income - account.expense
   return {
-    summary: `${myAccount.name} has an income of ${myAccount.income} and ${myAccount.expense} in expenses`,
+    summary: `${myAccount.name} has an income of ${myAccount.income} and ${myAccount.expense} in expenses. This leaves you with a balance of ${balance}`,
   };
 };
 // resetAccount
@@ -50,3 +51,5 @@ let secondExpense = addExpense(myAccount, 200);
 let secondSum = accountSummary();
 console.log(secondSum);
 //  "summary": "John Snow has an income of 400 and 200 in expenses"
+
+// Expense Tracker(Teacher Solution)
