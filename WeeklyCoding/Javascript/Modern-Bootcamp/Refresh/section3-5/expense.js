@@ -54,3 +54,4 @@ console.log(secondSum);
 
 /* { summary: 'John Snow has an income of 0 and 0 in expenses.' }
 { summary: 'John Snow has an income of 400 and 200 in expenses.' } */
+
