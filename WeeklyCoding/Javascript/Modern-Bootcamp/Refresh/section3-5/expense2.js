@@ -35,3 +35,15 @@ let secondExpense = addExpense(myAccount, 200);
 let secondSum = accountSummary(myAccount);
 console.log(secondSum);
 // John Snow has an income of 400 and 200 in expenses. This leaves you a balance of 200
+
+/* (Main Takeaway)
+And the interesting takeaway there is, if an input is empty, that param == undefined */
+
+
+
+
+
+
+
+
+
