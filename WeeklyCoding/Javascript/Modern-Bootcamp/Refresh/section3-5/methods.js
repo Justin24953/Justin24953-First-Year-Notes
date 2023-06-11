@@ -6,9 +6,10 @@ let restaurant = {
   guestCount: 75,
   guestCount: 0,
   checkAvailability: function (partySize) {
-    console.log(partySize)
+    return true
   }
 }
 
-restaurant.checkAvailability(65)
-// 65
+let status = restaurant.checkAvailability(true)
+
+console.log(status)
