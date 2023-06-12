@@ -1,6 +1,13 @@
 // Methods
 // A Method is a Object Property who's value is a fucntion 
 
+// Create New Methods
+
+// 1.  seatParty
+// 2. removeParty
+
+
+
 let restaurant = {
   name: `Jimmy's`,
   guestCap: 75,
@@ -50,12 +57,4 @@ console.log(status2)
 false
 true
  */
-
-// Create New Methods
-
-// 1.  seatParty
-// 2. removeParty
-
-//Examples
-
 
