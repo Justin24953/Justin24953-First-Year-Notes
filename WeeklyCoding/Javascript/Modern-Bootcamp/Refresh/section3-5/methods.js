@@ -4,7 +4,7 @@
 let restaurant = {
   name: `Jimmy's`,
   guestCap: 75,
-  guestCount: 25,
+  guestCount: 0,
   checkAvailability: function (partySize) {
     let seatsLeft = this.guestCap - this.guestCount
     return partySize <= seatsLeft
@@ -18,14 +18,38 @@ let restaurant = {
   }
 }
 
-let status = restaurant.checkAvailability(51)
 
-let firstParty = restaurant.seatParty(2)
-// -> guestCount 27
+let firstParty = restaurant.seatParty(72)
+// -> guestCount 72
 console.log(restaurant)
-restaurant.removeParty(3)
+restaurant.removeParty(2)
+console.log(restaurant)
+let status = restaurant.checkAvailability(6)
+console.log(status)
+let status2 = restaurant.checkAvailability(5)
+console.log(status2)
 
-console.log(restaurant)
+// Results
+
+/* {
+  name: "Jimmy's",
+  guestCap: 75,
+  guestCount: 72,
+  checkAvailability: [Function: checkAvailability],
+  seatParty: [Function: seatParty],
+  removeParty: [Function: removeParty]
+}
+{
+  name: "Jimmy's",
+  guestCap: 75,
+  guestCount: 70,
+  checkAvailability: [Function: checkAvailability],
+  seatParty: [Function: seatParty],
+  removeParty: [Function: removeParty]
+}
+false
+true
+ */
 
 // Create New Methods
 
