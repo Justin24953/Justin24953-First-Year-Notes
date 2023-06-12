@@ -8,12 +8,24 @@ let restaurant = {
   checkAvailability: function (partySize) {
     let seatsLeft = this.guestCap - this.guestCount
     return partySize <= seatsLeft
+  },
+  seatParty: function (partySize) {
+    return this.guestCount = this.guestCount + partySize
+  },
+  removeParty: function(partySize) {
+    return this.guestCount = this.guestCount - partySize
+
   }
 }
 
 let status = restaurant.checkAvailability(51)
 
-console.log(status)
+let firstParty = restaurant.seatParty(2)
+// -> guestCount 27
+console.log(restaurant)
+restaurant.removeParty(3)
+
+console.log(restaurant)
 
 // Create New Methods
 
@@ -21,4 +33,5 @@ console.log(status)
 // 2. removeParty
 
 //Examples
+
 
