@@ -16,15 +16,26 @@ console.log(name.toUpperCase());
 // length is more than 8 and it doesn't contain the word password.
 
 let isValidPassword = function (password) {
-  if (password.length > 8 && password.includes(`John`)) {
-    return `The Password ${password} doesn't meet our requirements`;
+  if (password.length >= 8 && !password.includes(`John`)) {
+    return `The Password ${password} meets our requirements`;
   } else {
-    return `Your Password ${password} is valid`;
+    return `Your Password ${password} is invalid`;
   }
 };
 
 console.log(isValidPassword("John"));
-console.log(isValidPassword("Jonny"));
+// -> Your Password John is invalid
+console.log(isValidPassword("Jonny1234"));
+// ->  The Password Jonny1234 meets our requirements
 
 
-// result The Password John doesn't meet our requirements
+// While making this function I questioned myself if this expression could be returned by itself by using a return statement. I played it safe and use an if statement, but next time I'll just test it out.
+
+let isValidPassword2 = function (password) {
+  return password.length >= 8 && !password.includes('John')
+}
+
+console.log(isValidPassword2('Snow1234'));
+// true
+console.log(isValidPassword2('John'));
+// false
