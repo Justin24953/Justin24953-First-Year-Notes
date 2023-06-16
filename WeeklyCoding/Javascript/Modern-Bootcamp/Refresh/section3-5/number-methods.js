@@ -17,3 +17,10 @@ let num2 = 43.48;
 // console.log(num2.toFixed(-1));
 
 // -> RangeError: toFixed() digits argument must be between 0 and 100
+
+let roundDown = function (equation) {
+return Math.round(equation)
+}
+
+console.log(roundDown(45.56 + 75.69))
+
