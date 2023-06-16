@@ -25,3 +25,10 @@ return Math.round(equation)
 console.log(roundDown(45.56 + 75.69))
 
 // ->121
+
+// While trying to create a fucntion that rounds a equation I came across an error. (TypeError: equation.round is not a function). My first thought was that I misspelled something. I didn't realize that certain methods can only be used by classes. I later found out that these are call Static Methods.
+
+
+// A static method is a method that belongs to a class rather than an instance of a class. This means you can call a static method without creating an object of the class. Static methods are sometimes called class methods.
+
+// For example: Math.roundDown(); // Math is the name of class and roundDown is a method. A static method is also known as class method in java because it belongs to a class rather than an individual instance of a class.
