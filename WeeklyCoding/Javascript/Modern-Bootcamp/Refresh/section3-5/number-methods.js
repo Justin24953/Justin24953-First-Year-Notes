@@ -24,3 +24,4 @@ return Math.round(equation)
 
 console.log(roundDown(45.56 + 75.69))
 
+// ->121
