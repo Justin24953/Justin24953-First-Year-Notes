@@ -32,3 +32,5 @@ console.log(roundDown(45.56 + 75.69))
 // A static method is a method that belongs to a class rather than an instance of a class. This means you can call a static method without creating an object of the class. Static methods are sometimes called class methods.
 
 // For example: Math.roundDown(); // Math is the name of class and roundDown is a method. A static method is also known as class method in java because it belongs to a class rather than an individual instance of a class.
+
+// Chaallenge
