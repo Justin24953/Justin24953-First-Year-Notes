@@ -55,11 +55,11 @@ let makeGuess = function (guess) {
 
   let call = guess === digit;
 
-  return `Your guess ${guess} was ${call}. The real answer was ${digit}`
+  return `Your guess ${guess} was ${call}. The real answer was ${digit}.`
 };
 
 console.log(makeGuess(1));
 
-// -> Your guess 1 was false. The real answer was 4
+// -> Your guess 1 was false. The real answer was 4.
 
-// -> Your guess 1 was true. The real answer was 1
+// -> Your guess 1 was true. The real answer was 1.
