@@ -33,4 +33,15 @@ console.log(roundDown(45.56 + 75.69))
 
 // For example: Math.roundDown(); // Math is the name of class and roundDown is a method. A static method is also known as class method in java because it belongs to a class rather than an individual instance of a class.
 
-// Chaallenge
+// Formula For Creating random Whole Numbers. (Just Change In the Min and Max)
+
+let max = 40
+
+let min = 30
+
+let randomNum =  Math.floor(Math.random() * (max - min +1)) +min
+
+console.log(randomNum) 
+
+
+// Challenge
