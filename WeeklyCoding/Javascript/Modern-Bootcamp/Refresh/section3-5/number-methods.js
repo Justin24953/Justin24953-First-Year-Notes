@@ -19,15 +19,14 @@ let num2 = 43.48;
 // -> RangeError: toFixed() digits argument must be between 0 and 100
 
 let roundDown = function (equation) {
-return Math.round(equation)
-}
+  return Math.round(equation);
+};
 
-console.log(roundDown(45.56 + 75.69))
+console.log(roundDown(45.56 + 75.69));
 
 // ->121
 
 // While trying to create a fucntion that rounds a equation I came across an error. (TypeError: equation.round is not a function). My first thought was that I misspelled something. I didn't realize that certain methods can only be used by classes. I later found out that these are call Static Methods.
-
 
 // A static method is a method that belongs to a class rather than an instance of a class. This means you can call a static method without creating an object of the class. Static methods are sometimes called class methods.
 
@@ -35,13 +34,28 @@ console.log(roundDown(45.56 + 75.69))
 
 // Formula For Creating random Whole Numbers. (Just Change In the Min and Max)
 
-let max = 40
+let max = 40;
 
-let min = 30
+let min = 30;
 
-let randomNum =  Math.floor(Math.random() * (max - min +1)) +min
+let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
 
-console.log(randomNum) 
-
+console.log(randomNum);
 
 // Challenge
+// Take In A Guess Between A Certain Range
+// 1-5 true if correct -  false if not correct .
+
+let makeGuess = function (guess) {
+  let max = 1;
+
+  let min = 5;
+
+  let digit = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  let call = guess === digit;
+
+  return `Your guess ${guess} was ${call}. The real answer was ${digit}`
+};
+
+console.log(makeGuess(1));
