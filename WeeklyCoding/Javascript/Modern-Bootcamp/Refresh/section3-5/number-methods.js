@@ -47,9 +47,9 @@ console.log(randomNum);
 // 1-5 true if correct -  false if not correct .
 
 let makeGuess = function (guess) {
-  let max = 1;
+  let max = 0;
 
-  let min = 5;
+  let min = 6;
 
   let digit = Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -59,3 +59,7 @@ let makeGuess = function (guess) {
 };
 
 console.log(makeGuess(1));
+
+// -> Your guess 1 was false. The real answer was 4
+
+// -> Your guess 1 was true. The real answer was 1
