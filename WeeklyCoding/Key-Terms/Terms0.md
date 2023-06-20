@@ -13,7 +13,7 @@
  - node - Nodes contain data and also may link to other nodes.  
  - brew (mac only) - A package manager that makes it easier to install applications and uninstall them. 
  - command line flags - These are flags that change/modify the the excution of a command. 
- - HTLM - Controls the Structure of the Conten of a Web Page. 
+ - HTML - Controls the Structure of the Conten of a Web Page. 
  - CSS - Cascading Style Sheets - Helps you describe the presentation of the site.
  - Code Editor (vs code, atom, sublime, vim) - These Create an envirement that help you Edit and Manage your code.
  - function declaration (using keyword -“function”) vs function expression (assigning a function to a variable) - var = A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function. 
