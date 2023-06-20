@@ -1,17 +1,30 @@
 # Unit 1
 
-## HTML 
+## **HTML** 
+
+- HTMl -  Hyper Text Markup Language 
+- Summary - The skeleton/ strcuture of  a web-page.
+
+### **HTML Syntax**
 
 - 
 
-## CSS
+(```) (```)
+
+## **CSS**
+
+- CSS - Cascading Style Sheets
+- 
+
+### **CSS Syntax**
+
+- 
+
+## **Javascript**
 
 -
 
-## Javascript
+### **Javascript Syntax**
 
--
 
-## Basic Knowledge 
 
--
