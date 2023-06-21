@@ -51,9 +51,33 @@
 - CSS - Cascading Style Sheets
 - Summary - Styling- Presentational rules such as color, tect formatting and positioning 
 
-### **CSS Syntax**
+### **CSS Rules**
 
-- 
+- **CSS Rule** - Has a selector that decalres a property and value. 
+
+- CSS Selectors
+  - You can use **html tags** has selectors (`)p {color:blue };  (`)
+  - You can also use unique selectors like **id*** This is used for a singal element. (`)#id {color:blue} (`)
+  - **class** selectors cannbe use on multiple elements
+
+- **Declarations**
+- Color
+
+- Font-Size
+
+- Text-Align
+
+- Font-family
+
+- Border
+
+- Width 
+
+- Height 
+
+- Margin 
+
+- Padding
 
 ## **Javascript**
 
