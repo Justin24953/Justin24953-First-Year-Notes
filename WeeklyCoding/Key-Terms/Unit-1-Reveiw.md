@@ -13,7 +13,7 @@
 - **<!DOCTYPE>** - Tells the browser what version of html your using (Current Version - **HTML 5**)
 
 - **html <> </>** - The HTML tag is the root Document and signifies the start and end of all the html content. Includes **Language Type** 
-- **head <> </>** - The head tag includes the metadata such as the title, fonts, and compatibility with certain browsers.
+- **head <> </>** - The head tag includes the metadata such as th title, fonts, and compatibility with certain browsers.
 - **body <> </>** - Includes the all structure and content the webpage will have and display to the user.
 - **header** - introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 - **main** - This represents the main content of the body.
