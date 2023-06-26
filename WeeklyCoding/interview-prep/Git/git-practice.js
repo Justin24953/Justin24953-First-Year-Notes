@@ -46,3 +46,9 @@ console.log(sayHello())
 
 
 */
+ function gitTest (test) {
+  return console.log(test)
+
+ }
+
+ gitTest(`Testing Git Add`)
