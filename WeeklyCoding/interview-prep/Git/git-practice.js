@@ -15,9 +15,9 @@ console.log(sayHello())
 
 // What Is Git? 
 
-/* [Git Is a Version (Control System)] */
+/* [Git Is a (Version Control System)] */
 
-// What is a Version (Control System)? 
+// What is a (Version Control System)? 
 
 // [Version Control Is A Way That Programmers Track Our Code Changes.]
 
@@ -45,5 +45,4 @@ console.log(sayHello())
 * pull -> Download changes from remote repo to your local machine, the opposite of push.
 
 
-
-
+*/
