@@ -23,3 +23,5 @@ logString('d')
 logString("First Test Case.\nSecond Line ")
 
 logString(`Backtic Test Case.\nSecond Line`)
+
+//  Operators that use two values are called binary operators, while those that take one are called unary operators. The minus operator can be used both as a binary operator and as a unary operator.
