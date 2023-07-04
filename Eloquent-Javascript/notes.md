@@ -11,7 +11,7 @@
 
 * The Main Difference Between a Expression and A Statments is that a expression doesn't effect the the program and Doesn't really stand on it's own compared to a statment.
 
-* A Statement Needs To have an Effect on the World or Tne Code In General. It can't just be a (value). 
+* A Statement Needs To have an Effect on the World or The Code In General. It can't just be a (value). 
 
 * Side Effects Are the 
 
@@ -25,5 +25,7 @@
 console.log(one + two);}
 
 # Control Flow
+
+- When your program contains more than one statement, the statements are executed as if they are a story, from top to bottom.
 
 - 
