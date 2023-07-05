@@ -55,3 +55,23 @@ The number is 10
 // -> The number is 1
 
 
+let result = 1;
+let counter = 0;
+while (counter < 10) {
+  result = result * 2;
+  counter = counter + 1;
+}
+console.log(result);
+// → 1024
+
+// I don't like how this looks.
+
+function counter (number) {
+  let iteration = 0
+while (number <= 10) {
+  number = number + 1
+
+console.log(`This is the ${iteration} iteration `)
+}
+}
+

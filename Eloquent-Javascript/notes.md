@@ -50,5 +50,8 @@ console.log(one + two);}
 
 - The idea of writing a program is to make something less work, not more. If we needed all even numbers less than 1,000, this approach would be unworkable. What we need is a way to run a piece of code multiple times. This form of control flow is called a loop.
 
+- Loops Are a Major Weak Point so I'll to practice these as much as I can.
+
+- A statement starting with the keyword while creates a loop. The word while is followed by an expression in parentheses and then a statement, much like if. The loop keeps entering that statement as long as the expression produces a value that gives true when converted to Boolean.
 
 
