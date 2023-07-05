@@ -28,4 +28,27 @@ console.log(one + two);}
 
 - When your program contains more than one statement, the statements are executed as if they are a story, from top to bottom.
 
-- 
+# Conditional execution
+
+- The **if** keyword executes or skips a statement depending on the value of a Boolean expression. The deciding expression is written after the keyword, between parentheses, followed by the statement to execute.
+
+- The Number.isNaN function is a standard JavaScript function that returns true only if the argument it is given is NaN. The Number function happens to return NaN when you give it a string that doesn’t represent a valid number. Thus, the condition translates to “unless theNumber is not-a-number, do this”. (I find this function very interesting. It reminds me of the Logical Operator {!}. )
+
+- If you have more than two paths to choose from, you can “chain” multiple if/else pairs together.
+
+# While and For Loops 
+- Consider a program that outputs all even numbers from 0 to 12. One way to write this is as follows:
+
+  console.log(0);
+  console.log(2);
+  console.log(4);
+  console.log(6);
+  console.log(8);
+  console.log(10);
+  console.log(12);
+
+
+- The idea of writing a program is to make something less work, not more. If we needed all even numbers less than 1,000, this approach would be unworkable. What we need is a way to run a piece of code multiple times. This form of control flow is called a loop.
+
+
+
