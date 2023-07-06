@@ -64,10 +64,11 @@ while (counter < 10) {
 console.log(result);
 // → 1024
 
-// I don't like how this looks.
+// ^ Let's Turn this into a function
 
 function counter (number) {
-  let iteration = 0
+  let iteration = 1 
+  let counter2 = 0
 while (number <= 10) {
   number = number + 1
 
