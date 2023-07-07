@@ -7,27 +7,25 @@ console.log(mood);
 
 //^ An Example Of Attaching The Tentacle Being Binded To Another Variable.
 
-
-
-
 let luigisDebt = 140;
 luigisDebt = luigisDebt - 35;
 console.log(luigisDebt);
 // → 105
 
-let one = 1, two = 2;
+let one = 1,
+  two = 2;
 console.log(one + two);
 // → 3
 
 // (While and Do Loops)
-function loopNumber (number) {
-while (number <= 10) {
-  console.log(`The number is ${number}`);
-  number = number + 1;
-};
-};
+function loopNumber(number) {
+  while (number <= 10) {
+    console.log(`The number is ${number}`);
+    number = number + 1;
+  }
+}
 
-loopNumber(0)
+loopNumber(0);
 /* ->
 The number is 0
 The number is 1
@@ -40,7 +38,7 @@ The number is 7
 The number is 8
 The number is 9
 The number is 10 */
-loopNumber(4)
+loopNumber(4);
 
 /* ->
 The number is 4
@@ -54,25 +52,60 @@ The number is 10
 
 // -> The number is 1
 
-
-let result = 1;
+/*let result = 1;
 let counter = 0;
 while (counter < 10) {
   result = result * 2;
   counter = counter + 1;
 }
 console.log(result);
-// → 1024
+// → 1024 */
 
-// ^ Let's Turn this into a function
+// ^ Let's Turn this into a function *
 
-function counter (number) {
-  let iteration = 1 
-  let counter2 = 0
-while (number <= 10) {
-  number = number + 1
+function sqauredCount(number) {
+  let counter = 0;
+  while (counter < 10) {
+    number = number * 2;
+    counter = counter + 1;
 
-console.log(`This is the ${iteration} iteration `)
+    console.log(`This is the ${counter} iteration of the number being sqaured. The result is ${number}`);
+  }
 }
-}
+
+sqauredCount(1)
+/* This is the 1 iteration of the number being sqaured. The result is 2
+This is the 2 iteration of the number being sqaured. The result is 4
+This is the 3 iteration of the number being sqaured. The result is 8
+This is the 4 iteration of the number being sqaured. The result is 16
+This is the 5 iteration of the number being sqaured. The result is 32
+This is the 6 iteration of the number being sqaured. The result is 64
+This is the 7 iteration of the number being sqaured. The result is 128
+This is the 8 iteration of the number being sqaured. The result is 256
+This is the 9 iteration of the number being sqaured. The result is 512
+This is the 10 iteration of the number being sqaured. The result is 1024 */
+
+sqauredCount(24)
+/* This is the 1 iteration of the number being sqaured. The result is 2
+This is the 2 iteration of the number being sqaured. The result is 4
+This is the 3 iteration of the number being sqaured. The result is 8
+This is the 4 iteration of the number being sqaured. The result is 16
+This is the 5 iteration of the number being sqaured. The result is 32
+This is the 6 iteration of the number being sqaured. The result is 64
+This is the 7 iteration of the number being sqaured. The result is 128
+This is the 8 iteration of the number being sqaured. The result is 256
+This is the 9 iteration of the number being sqaured. The result is 512
+This is the 10 iteration of the number being sqaured. The result is 1024
+This is the 1 iteration of the number being sqaured. The result is 48
+This is the 2 iteration of the number being sqaured. The result is 96
+This is the 3 iteration of the number being sqaured. The result is 192
+This is the 4 iteration of the number being sqaured. The result is 384
+This is the 5 iteration of the number being sqaured. The result is 768
+This is the 6 iteration of the number being sqaured. The result is 1536
+This is the 7 iteration of the number being sqaured. The result is 3072
+This is the 8 iteration of the number being sqaured. The result is 6144
+This is the 9 iteration of the number being sqaured. The result is 12288
+This is the 10 iteration of the number being sqaured. The result is 24576 */
+
+
 
