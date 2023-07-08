@@ -135,3 +135,13 @@ console.log(result);
 
 // ^ I wonder if I can referance variables defined in loops. This Will Be A (Test) for Myself After I Finsih This Chapter
 
+for (let current = 20; ; current = current + 1) {
+  if (current % 7 == 0) {
+    console.log(current);
+    break;
+  }
+}
+// → 21
+
+// Interesting way to stop the loop. This not know this break statement would have been helpful to stop infinite loops. 
+
