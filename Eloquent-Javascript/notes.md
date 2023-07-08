@@ -64,3 +64,21 @@ do {
 console.log(yourName);
 
 - This program will force you to enter a name. It will ask again and again until it gets something that is not an empty string. Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true. This means the loop continues going round until you provide a non-empty name.
+
+# For Loops
+
+- Many loops follow the pattern shown in the while examples. First a “counter” binding is created to track the progress of the loop. Then comes a while loop, usually with a test expression that checks whether the counter has reached its end value. At the end of the loop body, the counter is updated to track progress.
+
+- Because this pattern is so common, JavaScript and similar languages provide a slightly shorter and more comprehensive form, the for loop. 
+
+- Unlike Fucntions Loop don't need to be called. They seem like a fast way to get a complex result.
+
+- This program is exactly equivalent to the earlier even-number-printing example. The only change is that all the statements that are related to the “state” of the loop are grouped together after for.
+
+- The parentheses after a for keyword must contain two semicolons. The part before the first semicolon initializes the loop, usually by defining a binding. The second part is the expression that checks whether the loop must continue. The final part updates the state of the loop after every iteration. In most cases, this is shorter and clearer than a while construct.
+
+# Breaking Out of a Loop
+
+- Having the looping condition produce false is not the only way a loop can finish. There is a special statement called break that has the effect of immediately jumping out of the enclosing loop
+
+

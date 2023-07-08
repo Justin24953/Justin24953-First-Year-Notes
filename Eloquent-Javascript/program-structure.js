@@ -108,14 +108,30 @@ This is the 9 iteration of the number being sqaured. The result is 12288
 This is the 10 iteration of the number being sqaured. The result is 24576 */
 
 
-let yourName;
+/* let yourName;
 do {
   yourName = prompt("Who are you?");
 } while (!yourName);
-console.log(yourName);
+console.log(yourName); */
 
 /* This program will force you to enter a name. It will ask again and again until it gets something that is not an empty string. Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true. This means the loop continues going round until you provide a non-empty name. */
 
+// For Loop
+
+for (let number = 0; number <= 12; number = number + 2) {
+  console.log(number);
+}
+// → 0
+// → 2
+//   … etcetera
 
 
+let result = 1;
+for (let counter = 0; counter < 10; counter = counter + 1) {
+  result = result * 2;
+}
+console.log(result);
+// → 1024
+
+// ^ I wonder if I can referance variables defined in loops. This Will Be A (Test) for Myself After I Finsih This Chapter
 
