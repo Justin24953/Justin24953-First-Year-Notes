@@ -36,7 +36,7 @@ console.log(one + two);}
 
 - If you have more than two paths to choose from, you can “chain” multiple if/else pairs together.
 
-# While and For Loops 
+# While and Do Loops 
 - Consider a program that outputs all even numbers from 0 to 12. One way to write this is as follows:
 
   console.log(0);
@@ -55,3 +55,12 @@ console.log(one + two);}
 - A statement starting with the keyword while creates a loop. The word while is followed by an expression in parentheses and then a statement, much like if. The loop keeps entering that statement as long as the expression produces a value that gives true when converted to Boolean.
 
 
+- A **Do** loop is a control structure similar to a while loop. It differs only on one point: a do loop always executes its body at least once, and it starts testing whether it should stop only after that first execution. To reflect this, the test appears after the body of the loop.
+
+- let yourName;
+do {
+  yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName);
+
+- This program will force you to enter a name. It will ask again and again until it gets something that is not an empty string. Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true. This means the loop continues going round until you provide a non-empty name.
