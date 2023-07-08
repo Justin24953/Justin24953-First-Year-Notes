@@ -83,4 +83,16 @@ console.log(yourName);
 
 - Using the remainder (%) operator is an easy way to test whether a number is divisible by another number. If it is, the remainder of their division is zero.
 
+# Updating Bindings Succinctly
+
+- Especially when looping, a program often needs to “update” a binding to hold a value based on that binding’s previous value.
+
+  - counter = counter + 1;
+
+  - JavaScript provides a shortcut for this. (counter += 1;)
+
+
+
+
+
 

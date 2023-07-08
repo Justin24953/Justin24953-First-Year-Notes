@@ -145,3 +145,43 @@ for (let current = 20; ; current = current + 1) {
 
 // Interesting way to stop the loop. This not know this break statement would have been helpful to stop infinite loops. 
 
+// Updating Bindings Succinctly
+
+// This allows us to shorten our counting example a little more.
+
+for (let number = 0; number <= 12; number += 4) {
+  console.log(number);
+}
+/* →
+0
+4
+8
+12
+*/
+for (let number = 6; number <= 60; number += 6) {
+  console.log(number)
+}
+/* →
+6
+12
+18
+24
+30
+36
+42
+48
+54
+60
+*/
+
+// Looping A Triangle
+/* Write a loop that makes seven calls to console.log to output the following triangle: 
+#
+##
+###
+####
+#####
+######
+#######
+*/
+
