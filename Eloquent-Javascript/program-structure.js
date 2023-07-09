@@ -185,3 +185,19 @@ for (let number = 6; number <= 60; number += 6) {
 #######
 */
 
+/*for (let sharp = '#'; !sharp ==  7) {
+console.log(sharp)
+}
+console.log(sharp) */
+
+
+
+/* for (i = 0; i < 7; i++) {
+let sharp = ('#')
+console.log(sharp)
+} */
+
+for (let line = "#"; line.length < 8; line += "#")
+  console.log(line);
+
+
