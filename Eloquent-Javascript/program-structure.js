@@ -219,7 +219,7 @@ if (i % 3 == 0) {
 } else {console.log(i)}
 } */
 
- for (i = 1; i <= 100; i++) {
+/* for (i = 1; i <= 100; i++) {
   if (i % 3 == 0 || i % 5 == 0) {
     console.log('FizzBuzz')
   } else if (i % 3 == 0) {
@@ -227,6 +227,118 @@ if (i % 3 == 0) {
   } else if (i % 5 == 0) {
     console.log('Buzz')
   }else{console.log(i)}
+  } */
+
+  /* ->
+1
+2
+FizzBuzz
+4
+FizzBuzz
+FizzBuzz
+7
+8
+FizzBuzz
+FizzBuzz
+11
+FizzBuzz
+13
+14
+FizzBuzz
+16
+17
+FizzBuzz
+19
+FizzBuzz
+FizzBuzz
+22
+23
+FizzBuzz
+FizzBuzz
+26
+FizzBuzz
+28
+29
+FizzBuzz
+31
+32
+FizzBuzz
+34
+FizzBuzz
+FizzBuzz
+37
+38
+FizzBuzz
+FizzBuzz
+41
+FizzBuzz
+43
+44
+FizzBuzz
+46
+47
+FizzBuzz
+49
+FizzBuzz
+FizzBuzz
+52
+53
+FizzBuzz
+FizzBuzz
+56
+FizzBuzz
+58
+59
+FizzBuzz
+61
+62
+FizzBuzz
+64
+FizzBuzz
+FizzBuzz
+67
+68
+FizzBuzz
+FizzBuzz
+71
+FizzBuzz
+73
+74
+FizzBuzz
+76
+77
+FizzBuzz
+79
+FizzBuzz
+FizzBuzz
+82
+83
+FizzBuzz
+FizzBuzz
+86
+FizzBuzz
+88
+89
+FizzBuzz
+91
+92
+FizzBuzz
+94
+FizzBuzz
+FizzBuzz
+97
+98
+FizzBuzz
+FizzBuzz */
+
+for (i = 1; i <= 100; i++) {
+  if (i % 3 == 0 || i % 5 == 0) {
+    console.log('FizzBuzz')
+  } 
+  if (i % 3 == 0) {
+    console.log('Fizz')
+  } else if (i % 5 == 0) {
+    console.log('Buzz')
+  }else{console.log(i)}
   } 
 
-  
