@@ -501,3 +501,5 @@ for (i = 1; i <= 100; i++) {
   }else{console.log(i)}
   } 
 
+// Write a function that starts FizzBuzz
+// Study Objects
