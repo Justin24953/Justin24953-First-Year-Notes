@@ -219,7 +219,7 @@ if (i % 3 == 0) {
 } else {console.log(i)}
 } */
 
-/* for (i = 1; i <= 100; i++) {
+ for (i = 1; i <= 100; i++) {
   if (i % 3 == 0 || i % 5 == 0) {
     console.log('FizzBuzz')
   } else if (i % 3 == 0) {
@@ -227,7 +227,7 @@ if (i % 3 == 0) {
   } else if (i % 5 == 0) {
     console.log('Buzz')
   }else{console.log(i)}
-  } */
+  } 
 
   /* ->
 1
@@ -333,6 +333,165 @@ FizzBuzz */
 
 for (i = 1; i <= 100; i++) {
   if (i % 3 == 0 || i % 5 == 0) {
+    console.log('FizzBuzz')
+  } 
+  if (i % 3 == 0) {
+    console.log('Fizz')
+  } else if (i % 5 == 0) {
+    console.log('Buzz')
+  }else{console.log(i)}
+  } 
+
+/* ->  1
+2
+FizzBuzz
+Fizz
+4
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+7
+8
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+11
+FizzBuzz
+Fizz
+13
+14
+FizzBuzz
+Fizz
+16
+17
+FizzBuzz
+Fizz
+19
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+22
+23
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+26
+FizzBuzz
+Fizz
+28
+29
+FizzBuzz
+Fizz
+31
+32
+FizzBuzz
+Fizz
+34
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+37
+38
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+41
+FizzBuzz
+Fizz
+43
+44
+FizzBuzz
+Fizz
+46
+47
+FizzBuzz
+Fizz
+49
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+52
+53
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+56
+FizzBuzz
+Fizz
+58
+59
+FizzBuzz
+Fizz
+61
+62
+FizzBuzz
+Fizz
+64
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+67
+68
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+71
+FizzBuzz
+Fizz
+73
+74
+FizzBuzz
+Fizz
+76
+77
+FizzBuzz
+Fizz
+79
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+82
+83
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz
+86
+FizzBuzz
+Fizz
+88
+89
+FizzBuzz
+Fizz
+91
+92
+FizzBuzz
+Fizz
+94
+FizzBuzz
+Buzz
+FizzBuzz
+Fizz
+97
+98
+FizzBuzz
+Fizz
+FizzBuzz
+Buzz*/
+
+for (i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
     console.log('FizzBuzz')
   } 
   if (i % 3 == 0) {
