@@ -91,6 +91,15 @@ console.log(yourName);
 
   - JavaScript provides a shortcut for this. (counter += 1;)
 
+## The Anatomy of a For Loop
+
+
+- The for keyword
+
+- The condition (this comprises of the initialization, condition and updater).
+
+- The code to execute when the loop runs
+
 
 
 

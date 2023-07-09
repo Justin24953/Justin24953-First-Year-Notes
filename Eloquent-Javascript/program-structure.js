@@ -197,7 +197,10 @@ let sharp = ('#')
 console.log(sharp)
 } */
 
-for (let line = "#"; line.length < 8; line += "#")
+for (let line = "#"; line.length < 8; line += "#") {
   console.log(line);
+}
+
+// ^ I forgot about the length property. I got too used to putting all my conditions within functions.
 
 
