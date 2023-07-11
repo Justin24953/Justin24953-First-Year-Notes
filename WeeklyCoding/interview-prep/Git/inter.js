@@ -24,3 +24,6 @@ console.log(addPair(newObject))
 
 // Remove Play button.
 // Stop auto complete
+// Stop Testing Within Your Functions
+// Study Objects 
+// Study Arrow Functions
