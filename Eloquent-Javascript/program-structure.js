@@ -69,11 +69,13 @@ function sqauredCount(number) {
     number = number * 2;
     counter = counter + 1;
 
-    console.log(`This is the ${counter} iteration of the number being sqaured. The result is ${number}`);
+    console.log(
+      `This is the ${counter} iteration of the number being sqaured. The result is ${number}`
+    );
   }
 }
 
-sqauredCount(1)
+sqauredCount(1);
 /* This is the 1 iteration of the number being sqaured. The result is 2
 This is the 2 iteration of the number being sqaured. The result is 4
 This is the 3 iteration of the number being sqaured. The result is 8
@@ -85,7 +87,7 @@ This is the 8 iteration of the number being sqaured. The result is 256
 This is the 9 iteration of the number being sqaured. The result is 512
 This is the 10 iteration of the number being sqaured. The result is 1024 */
 
-sqauredCount(24)
+sqauredCount(24);
 /* This is the 1 iteration of the number being sqaured. The result is 2
 This is the 2 iteration of the number being sqaured. The result is 4
 This is the 3 iteration of the number being sqaured. The result is 8
@@ -107,7 +109,6 @@ This is the 8 iteration of the number being sqaured. The result is 6144
 This is the 9 iteration of the number being sqaured. The result is 12288
 This is the 10 iteration of the number being sqaured. The result is 24576 */
 
-
 /* let yourName;
 do {
   yourName = prompt("Who are you?");
@@ -124,7 +125,6 @@ for (let number = 0; number <= 12; number = number + 2) {
 // → 0
 // → 2
 //   … etcetera
-
 
 let result = 1;
 for (let counter = 0; counter < 10; counter = counter + 1) {
@@ -143,7 +143,7 @@ for (let current = 20; ; current = current + 1) {
 }
 // → 21
 
-// Interesting way to stop the loop. This not know this break statement would have been helpful to stop infinite loops. 
+// Interesting way to stop the loop. This not know this break statement would have been helpful to stop infinite loops.
 
 // Updating Bindings Succinctly
 
@@ -159,7 +159,7 @@ for (let number = 0; number <= 12; number += 4) {
 12
 */
 for (let number = 6; number <= 60; number += 6) {
-  console.log(number)
+  console.log(number);
 }
 /* →
 6
@@ -190,8 +190,6 @@ console.log(sharp)
 }
 console.log(sharp) */
 
-
-
 /* for (i = 0; i < 7; i++) {
 let sharp = ('#')
 console.log(sharp)
@@ -203,30 +201,48 @@ for (let line = "#"; line.length < 8; line += "#") {
 
 // ^ I forgot about the length property. I got too used to putting all my conditions within functions.
 
-
 /*  Write a program that uses console.log to print all the numbers from 1 to 100, with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead.
 
 When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those). */
 
-// console.log numbers 1 - 100. 
+// console.log numbers 1 - 100.
 // Exclude numbers that are divisble by 3. ( number% by 3)
 
-for (i = 1; i <= 100; i++) {
+/* for (i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
-    return 'FizzBuzz'
-  } 
+    return "FizzBuzz";
+  }
   if (i % 3 == 0) {
-    return 'Fizz'
+    return "Fizz";
   } else if (i % 5 == 0) {
-    return 'Buzz'
-  }else{ return i}
-  } 
+    return "Buzz";
+  } else {
+    return i;
+  }
+} */
 
-function callFizzBuzz () {
+// Nothing is added to the console.log
+
+function callFizzBuzz() {
   
+  for (i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      console.log("FizzBuzz");
+    }
+    if (i % 3 == 0) {
+      console.log("Fizz");
+    } else if (i % 5 == 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
 }
+
+console.log(callFizzBuzz())
+
+
 // Write a function that starts FizzBuzz
 // Remember That console.log() is for testing your code. Remember to use returns.
 // Question? Is FizzBuzz Loop going to within the function?
 // Question? If FizzBuzz Loop isn't in the function then how would that work?
-
