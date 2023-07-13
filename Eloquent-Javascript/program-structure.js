@@ -246,3 +246,11 @@ console.log(callFizzBuzz())
 // Remember That console.log() is for testing your code. Remember to use returns.
 // Question? Is FizzBuzz Loop going to within the function?
 // Question? If FizzBuzz Loop isn't in the function then how would that work?
+
+// Book Solution
+for (let n = 1; n <= 100; n++) {
+  let output = "";
+  if (n % 3 == 0) output += "Fizz";
+  if (n % 5 == 0) output += "Buzz";
+  console.log(output || n);
+}
