@@ -22,13 +22,8 @@ function callFizzBuzz() {
   }
 }
 
-console.log(callFizzBuzz())
+callFizzBuzz()
 
-
-// Write a function that starts FizzBuzz
-// Remember That console.log() is for testing your code. Remember to use returns.
-// Question? Is FizzBuzz Loop going to within the function?
-// Question? If FizzBuzz Loop isn't in the function then how would that work?
 
 // Book Solution
 for (let n = 1; n <= 100; n++) {
@@ -40,13 +35,217 @@ for (let n = 1; n <= 100; n++) {
 
 // ^ Throughout the book it's keep that reiterating can be variables attached to different values. This solutions uses the full power of the (for) loop and the (let) keyword.
 
-function callFizz () {
+function callFizz (fizz,buzz) {
   for (let n = 1; n <= 100; n++) {
     let output = "";
-    if (n % 3 == 0) output += "Fizz";
-    if (n % 5 == 0) output += "Buzz";
+    if (n % fizz == 0) output += "Fizz";
+    if (n % buzz == 0) output += "Buzz";
     console.log(output || n);
   }
 }
 
-callFizz()
+callFizz(3,5)
+/* 
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz
+31
+32
+Fizz
+34
+Buzz
+Fizz
+37
+38
+Fizz
+Buzz
+41
+Fizz
+43
+44
+FizzBuzz
+46
+47
+Fizz
+49
+Buzz
+Fizz
+52
+53
+Fizz
+Buzz
+56
+Fizz
+58
+59
+FizzBuzz
+61
+62
+Fizz
+64
+Buzz
+Fizz
+67
+68
+Fizz
+Buzz
+71
+Fizz
+73
+74
+FizzBuzz
+76
+77
+Fizz
+79
+Buzz
+Fizz
+82
+83
+Fizz
+Buzz
+86
+Fizz
+88
+89
+FizzBuzz
+91
+92
+Fizz
+94
+Buzz
+Fizz
+97
+98
+Fizz
+Buzz
+*/
+callFizz(1,2)
+/*
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz
+Fizz
+FizzBuzz */
