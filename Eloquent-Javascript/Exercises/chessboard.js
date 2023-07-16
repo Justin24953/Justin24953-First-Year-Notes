@@ -17,10 +17,16 @@ When you have a program that generates this pattern, define a binding size = 8 a
 // Use newline chracters tp separate lines.
 // At Each Postion of the grid there is either a space or a '#' character.
 
-let grid = ` `
+let grid = ` Hi Jon`
  
-function createGrid (column,row,symbol,space) 
+// function createGrid (column,row,symbol,space) 
 
 
-console.log(createGrid(8,`4`,`#`),` `)
+//console.log(createGrid(8,`4`,`#`),` `)
+
+for (let i = 0; i < 8; i++) {
+  console.log(grid += `/n Hi`);
+}
+
+
 
